@@ -6,8 +6,11 @@
 	bottom: 0;
 	left: 0;
 }
+p {
+	margin: 0;
+}
 .popup__block {
-	width: 50vh;
+	width: 20vw;
 	height: 70vh;
 	background-color: rgb(255, 255, 255);
 	border-radius: 10px;
@@ -23,22 +26,20 @@
 	border: 0;
 	padding: 0;
 	margin-top: 2%;
-	margin-left: 92%;
+	margin-left: 90%;
 }
 .close_img{
-	width: 7px;
+	width: 40%;
 }
 .popup__img img {
-	width: 185px;
-	height: 140px;
-	margin-top: 50px;
+	width: 65%;
+	margin-top: 20%;
 }
 .popup__head {
-	margin-top: 20px;
+	margin-top: 10%;
 }
 .popup__text {
-	margin-top: 10px;
-	margin-bottom: 15px;
+	margin-top: 5%;
 	color: rgb(151, 159, 174);
 	font-size: 0.7em;
 	line-height: 1.5em;
@@ -48,8 +49,10 @@
 	text-decoration: none;
 }
 .button__block{
-	width: 120px;
-	height: 30px;
+	width: 35%;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	margin-top: 7%;
 	background-color: rgb(254, 133, 2);
 	color: white;
 	border-radius: 50px;
